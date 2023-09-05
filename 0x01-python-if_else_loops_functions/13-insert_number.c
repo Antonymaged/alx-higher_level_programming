@@ -22,7 +22,7 @@ return (newl);
 }
 while (node && node->next && node->next->n < num)
 node = node->next;
-new->next = node->next;
+newl->next = node->next;
 node->next = newl;
 return (newl);
 }
