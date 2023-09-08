@@ -2,7 +2,7 @@
 def add_arg(argv):
     num = len(argv) - 1
     if num == 0:
-        print("{:d}".format(nunm))
+        print("{:d}".format(num))
         return
     else:
         i = 1
