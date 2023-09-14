@@ -2,7 +2,8 @@
 
 
 def search_replace(my_list, search, replace):
-    for i in my_list:
-        if search in my_list:
-            my_list.index(search) = replace
+    le = len(my_list)
+    for i in range(0, le):
+        if my_list[i] == search:
+            my_list[i] = replace
     return(my_list)
