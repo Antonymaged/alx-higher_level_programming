@@ -2,9 +2,8 @@
 
 
 def uniq_add(my_list=[]):
-    new_lis = sorted(my_list)
-    leng = len(new_lis)
+    new = sorted(set(my_list))
     sumy = 0
-    for i in range(0, leng):
-        sumy = sumy + new_lis[i]
+    for i in new:
+        sumy = sumy + i
     return (sumy)
