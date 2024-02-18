@@ -2,10 +2,10 @@
 """Start link class to table in database
 """
 from sqlalchemy import Column, Integer, String, Metadata
-from sqlalchemy.ext.declerative import declerative_base
+from sqlalchemy.ext.declerative import declarative_base
 
 meta = Metadata()
-Base = declerativ_base(metadata=meta)
+Base = declarativ_base(metadata=meta)
 
 
 class State(Base):
